@@ -1,0 +1,14 @@
+{
+  "name": "aumos-integrations",
+  "private": true,
+  "workspaces": [
+    "packages/langchain",
+    "packages/openclaw"
+  ],
+  "scripts": {
+    "fire-line-audit": "bash scripts/fire-line-audit.sh"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
