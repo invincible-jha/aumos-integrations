@@ -1,5 +1,7 @@
 # aumos-integrations
 
+[![Governance Score](https://img.shields.io/badge/governance-self--assessed-blue)](https://github.com/aumos-ai/aumos-integrations)
+
 Third-party framework integrations for the AumOS governance protocol suite.
 
 Each package in this monorepo adds AumOS governance to a specific AI framework or library. All integrations depend only on `aumos-governance` (the public AumOS SDK) and the target framework — no proprietary AumOS internals.

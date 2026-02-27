@@ -44,6 +44,13 @@ from .callback import AumOSGovernanceCallback
 from .chain_guard import ChainGuard, GuardedChain
 from .config import GovernanceConfig
 from .errors import GovernanceDeniedError, ToolSkippedError
+from .lcel_step import GovernanceRunnable, GovernanceRunnableConfig
+from .langgraph_node import GovernanceNode, GovernanceNodeConfig, create_governance_node
+from .langsmith_annotations import (
+    GovernanceAnnotation,
+    GovernanceAnnotator,
+    GovernanceTraceCallback,
+)
 from .tool_wrapper import GovernedTool, govern
 from .types import AuditRecord, DeniedAction, ToolCallContext
 
@@ -54,6 +61,14 @@ __all__ = [
     "GovernanceConfig",
     "GovernanceDeniedError",
     "ToolSkippedError",
+    "GovernanceRunnable",
+    "GovernanceRunnableConfig",
+    "GovernanceNode",
+    "GovernanceNodeConfig",
+    "create_governance_node",
+    "GovernanceAnnotation",
+    "GovernanceAnnotator",
+    "GovernanceTraceCallback",
     "GovernedTool",
     "govern",
     "AuditRecord",

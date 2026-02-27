@@ -53,6 +53,7 @@ GuardResult
 """
 
 from .config import AutoGenGovernanceConfig
+from .conversation_governance import ConversationGovernanceManager
 from .errors import GovernanceDeniedError, MessageBlockedError
 from .governed_agent import GovernedConversableAgent
 from .message_guard import MessageGuard
@@ -69,6 +70,7 @@ __all__ = [
     "GovernedConversableAgent",
     "MessageGuard",
     "ToolGuard",
+    "ConversationGovernanceManager",
     "AutoGenGovernanceConfig",
     "GovernanceDeniedError",
     "MessageBlockedError",
