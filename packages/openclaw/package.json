@@ -29,6 +29,22 @@
   "dependencies": {
     "zod": "^3.23.0"
   },
+  "keywords": [
+    "aumos",
+    "openclaw",
+    "mcp",
+    "ai-governance",
+    "agent-governance",
+    "ai-agents"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aumos-ai/aumos-integrations",
+    "directory": "packages/openclaw"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "@aumos/governance": ">=0.1.0"
   },
